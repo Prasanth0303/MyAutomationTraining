@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" thread-count="10">
+  <test name="Login_1" >
+    <classes>
+      <class name="Demo.Loginscenarios"/>
+    </classes>
+  </test>
+ <test name="Login_2">
+	<classes>
+		<class name="Demo.Loginscenarios2"/>
+	</classes>
+</test>
+</suite> 
