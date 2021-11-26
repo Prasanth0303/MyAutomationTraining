@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite1]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="TestingOnFirefox(failed)">
+    <parameter name="browserName" value="Firefox"/>
+    <classes>
+      <class name="Demo.Browser_scroll">
+        <methods>
+          <include name="LaunchUrl"/>
+          <include name="twitterlaunch"/>
+          <include name="facebooklaunch"/>
+          <include name="setup"/>
+          <include name="youtubelaunch"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+        </methods>
+      </class> <!-- Demo.Browser_scroll -->
+    </classes>
+  </test> <!-- TestingOnFirefox(failed) -->
+</suite> <!-- Failed suite [Suite1] -->
