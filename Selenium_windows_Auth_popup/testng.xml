@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuite" parallel="tests" thread-count="2" >
+<!-- Parallel Cross-browser testing is done here -->
+<test name="TestingOnEdge">
+<parameter name="browserN" value="Edge"></parameter>
+<classes>
+<class name="Cross_Browser.Cross_Browser1"/>
+</classes>
+</test> 
+<test name="TestingOnChrome">
+<parameter name="browserN" value="Chrome"></parameter>
+<classes>
+<class name="Cross_Browser.Cross_Browser1"/>
+</classes>
+</test> 
+</suite>

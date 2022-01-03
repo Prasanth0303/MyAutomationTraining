@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="10" name="Login_1(failed)">
+    <classes>
+      <class name="Demo.Loginscenarios">
+        <methods>
+          <include name="enter_pswd"/>
+          <include name="clicklogin"/>
+          <include name="setup"/>
+          <include name="enter_user"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+          <include name="launch_app"/>
+        </methods>
+      </class> <!-- Demo.Loginscenarios -->
+    </classes>
+  </test> <!-- Login_1(failed) -->
+  <test thread-count="10" name="Login_2(failed)">
+    <classes>
+      <class name="Demo.Loginscenarios2">
+        <methods>
+          <include name="clicklogin"/>
+          <include name="enter_pswd"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="enter_user"/>
+          <include name="launch_app"/>
+          <include name="get_title"/>
+        </methods>
+      </class> <!-- Demo.Loginscenarios2 -->
+    </classes>
+  </test> <!-- Login_2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Login_1(failed)">
+    <classes>
+      <class name="Demo.LoginThree">
+        <methods>
+          <include name="enter_user"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="clicklogin"/>
+        </methods>
+      </class> <!-- Demo.LoginThree -->
+    </classes>
+  </test> <!-- Login_1(failed) -->
+  <test thread-count="5" name="Login_2(failed)">
+    <classes>
+      <class name="Demo.LoginThree">
+        <methods>
+          <include name="enter_user"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="clicklogin"/>
+        </methods>
+      </class> <!-- Demo.LoginThree -->
+    </classes>
+  </test> <!-- Login_2(failed) -->
+  <test thread-count="5" name="Login_3(failed)">
+    <classes>
+      <class name="Demo.LoginThree">
+        <methods>
+          <include name="enter_user"/>
+          <include name="setup"/>
+          <include name="finish"/>
+          <include name="get_title"/>
+          <include name="enter_pswd"/>
+          <include name="launch_app"/>
+          <include name="clicklogin"/>
+        </methods>
+      </class> <!-- Demo.LoginThree -->
+    </classes>
+  </test> <!-- Login_3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
